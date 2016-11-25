@@ -1,0 +1,5 @@
+cyber-caro/open {x: 16, y: 16, win: 4}: boardId
+
+cyber-caro/join/{boardId}      playerId
+
+cyber-caro/play/boardId/playerid { x: ?, y: ? }
