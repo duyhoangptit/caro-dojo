@@ -1,8 +1,8 @@
 var appRouter = function(app) {
     app.get('/', responeHello);
-    app.get("/setup", responseBoardId);
-    app.get("/join/:boardId", responseBoardJoinId);
-    app.get("/play/:boardId/:playerId/:row/:column", responseBoardPlay);
+    app.post("/setup", responseBoardId);
+    app.post("/join/:boardId", responseBoardJoinId);
+    app.post("/play/:boardId/:playerId/:row/:column", responseBoardPlay);
 }
 
 function responeHello(req, res) {
